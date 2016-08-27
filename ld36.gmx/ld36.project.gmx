@@ -6,12 +6,22 @@
   <datafiles number="1" name="datafiles"/>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
+  <sprites name="sprites">
+    <sprite>sprites\sprite_player</sprite>
+    <sprite>sprites\sprite_collision</sprite>
+  </sprites>
   <backgrounds name="background">
-    <background>background\Rock</background>
+    <background>background\Underground</background>
+    <background>background\Indoors</background>
   </backgrounds>
   <paths name="paths"/>
-  <rooms name="rooms"/>
+  <objects name="objects">
+    <object>objects\Player</object>
+    <object>objects\Collision</object>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\tests</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
