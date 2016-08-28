@@ -12,10 +12,15 @@
     <sprite>sprites\sprite_gate</sprite>
     <sprite>sprites\sprite_dialog</sprite>
     <sprite>sprites\sprite_bed</sprite>
+    <sprites name="sprite_items">
+      <sprite>sprites\sprite_red_key</sprite>
+    </sprites>
+    <sprite>sprites\sprite_inventory</sprite>
   </sprites>
   <backgrounds name="background">
-    <background>background\Underground</background>
-    <background>background\Indoors</background>
+    <background>background\bg_underground</background>
+    <background>background\bg_indoors</background>
+    <background>background\bg_inventory</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -30,6 +35,8 @@
     <object>objects\prison_door</object>
     <object>objects\obj_dialog</object>
     <object>objects\bed</object>
+    <object>objects\Inventory</object>
+    <object>objects\obj_red_key</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\tests</room>
