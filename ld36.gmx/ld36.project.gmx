@@ -9,15 +9,27 @@
   <sprites name="sprites">
     <sprite>sprites\sprite_player</sprite>
     <sprite>sprites\sprite_collision</sprite>
+    <sprite>sprites\sprite_gate</sprite>
+    <sprite>sprites\sprite_dialog</sprite>
+    <sprite>sprites\sprite_bed</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\Underground</background>
     <background>background\Indoors</background>
   </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\message_box.gml</script>
+  </scripts>
+  <fonts name="fonts">
+    <font>fonts\fnt</font>
+  </fonts>
   <objects name="objects">
     <object>objects\Player</object>
     <object>objects\Collision</object>
+    <object>objects\prison_door</object>
+    <object>objects\obj_dialog</object>
+    <object>objects\bed</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\tests</room>
